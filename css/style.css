@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding:0;
+}
+section{
+	width:100%;
+	float:left;
+}
+.container{
+	width:80%;
+	margin:0 auto;
+	
+}
+.sub-box-1{
+	float:left;
+	width: 30%;
+	background-color: #ddd;
+	height: 200px;
+	margin-right: 20px;
+}
+
+.sub-box-2{
+	float:left;
+	width:calc(50%-20px);
+	background-color: #009;
+	height: 200px;
+	margin-right: 20px;
+
+}
+.sub-box-3{
+	float:left;
+	width:calc(20%-20px);
+	background-color:#000;
+	height:200px;
+	
+}
+
+table{
+	width:80%;
+	margin:0 auto;
+	text-align: center;
+	border-collapse: collapse;
+	
+}
+table,th,td{
+	border:2px solid black ;
+	padding: 12px;
+	}
